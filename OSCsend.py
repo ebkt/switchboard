@@ -24,7 +24,7 @@ pins = []
 # name the lists, ie toggle2, toggle3 and board.D2, board.D3, etc
 for i in range(numToggles):
 	toggles.append("toggle" + str(i + 2)) # add 2 to the index so toggle num matches pin num
-	pins.append("board.D" + str(i + 2)) # add 2 to the index because we aren't using pins 0 or 1
+	pins.append("board.D" + str(i + 2))   # add 2 to the index because we aren't using pins 0 or 1
 
 print(toggles) 	# print our list of toggle names
 print(pins)     # print our list of pin names
@@ -71,9 +71,9 @@ client = udp_client.SimpleUDPClient(args.ip, args.port)
 while True:
 	# loop through the number of toggles
 	for i in range(numToggles):
-		client.send_message("/toggle", i) # send a message for each toggle
-		if toggles[i].value == False:     # if the reading is 0 (ie, the toggle is ON, because we have pullUPs)
-			client.send_message("/on", 1) # send a 1
-		else:							  # otherwise
-			client.send_message("/on", 0) # send a 0
-		time.sleep(0.05)                  # relax for 50ms
+		client.send_message("/toggle", i+2) # send a message for each toggle
+		if toggles[i].value == False:       # if the reading is 0 (ie, the toggle is ON, because we have pullUPs)
+			client.send_message("/on", 1)   # send a 1
+		else:							    # otherwise
+			client.send_message("/on", 0)   # send a 0
+	time.sleep(0.05)                        # relax for 50ms
