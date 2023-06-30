@@ -33,7 +33,7 @@ print(pins)     # print our list of pin names
 for i in range(numToggles):
 	toggles[i] = toggle_register(eval(pins[i]))
 
-# commented out because ugly
+# illustration of part of what we avoided with the above function and loops
 # set pins 0 to 24 as inputs with pullup resistor enabled
 # toggle0 = toggle_register(board.D0)
 # toggle1 = toggle_register(board.D1)
