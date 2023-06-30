@@ -1,3 +1,5 @@
+created for student use
+
 read switch inputs on raspberry pi gpio and send toggle information to pd 
 patch
 
