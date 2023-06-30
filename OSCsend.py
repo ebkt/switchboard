@@ -21,10 +21,10 @@ def toggle_register(pin):
 toggles = []
 pins = []
 
-# name the lists, ie toggle0, toggle1 and board.D0, board.D1, etc
+# name the lists, ie toggle2, toggle3 and board.D2, board.D3, etc
 for i in range(numToggles):
-	toggles.append("toggle" + str(i))
-	pins.append("board.D" + str(i))
+	toggles.append("toggle" + str(i + 2)) # add 2 to the index so toggle num matches pin num
+	pins.append("board.D" + str(i + 2)) # add 2 to the index because we aren't using pins 0 or 1
 
 print(toggles) 	# print our list of toggle names
 print(pins)     # print our list of pin names
