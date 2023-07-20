@@ -1,127 +1,125 @@
-#N canvas 4 25 1272 847 12;
-#X obj -30 -30 preset_hub k12 1 %hidden%;
-#X obj 140 100 netreceive -u -b;
-#X obj 140 129 oscparse;
-#X obj 140 158 list trim;
-#X obj 140 187 route toggle on;
-#X obj 140 240 pack 0 0;
-#X obj 140 380 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#N canvas 132 25 975 847 12;
+#X obj -20 105 preset_hub k12 1 %hidden%;
+#X obj 150 100 netreceive -u -b;
+#X obj 150 129 oscparse;
+#X obj 150 158 list trim;
+#X obj 150 187 route toggle on;
+#X obj 150 515 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 160 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 170 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 178 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 188 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 196 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 206 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 220 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 230 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 240 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 250 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 258 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 268 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 276 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 286 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 300 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 310 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 320 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 330 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 338 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 348 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 356 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 366 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 390 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 400 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 410 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 420 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 428 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 438 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1 1;
+#X obj 456 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 446 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 480 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 470 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 500 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 490 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 518 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 508 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 536 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1 1;
+#X obj 560 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1 1;
+#X obj 580 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 1 1 1;
+#X obj 598 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 526 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 616 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 550 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000 0 1 1;
-#X obj 570 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000 0 1 1;
-#X obj 588 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000 0 1 1;
-#X obj 606 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000 0 1 1;
-#X msg 140 20 listen 5005;
-#X msg 170 50 listen 0;
-#X text 270 20 osc incoming port (set in python program);
-#X text 270 50 turn off listening/close connection;
-#X text 270 100 receive \, -u for udp \, -b for binary;
-#X text 270 130 convert it to something pd understands;
-#X text 270 160 remove "list" from start of message;
-#X text 270 190 separate the toggle and on messages;
-#X text 270 240 pack them together;
-#X text 680 260 route messages accordingto which pin they're from
+#X msg 150 20 listen 5005;
+#X msg 180 50 listen 0;
+#X text 280 20 osc incoming port (set in python program);
+#X text 280 50 turn off listening/close connection;
+#X text 280 100 receive \, -u for udp \, -b for binary;
+#X text 280 130 convert it to something pd understands;
+#X text 280 160 remove "list" from start of message;
+#X text 280 190 separate the toggle and on messages;
+#X text 690 395 route messages accordingto which pin they're from
 ;
-#X obj 140 295 route 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+#X obj 150 430 route 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
 20 21 22 23 24 25 26, f 73;
-#X obj 630 340 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 640 475 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 160 560 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 170 695 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 200 620 t b b b, f 9;
-#X obj 160 590 readsf~;
-#X msg 50 530 open ~/Documents/Pd/deskBell.aiff, f 10;
-#X obj 160 820 dac~;
-#X obj 160 440 change;
-#X obj 120 500 sel 0;
-#X obj 170 500 r retog2;
-#X obj 170 530 r detog2;
-#X obj 260 650 s detog2;
-#X obj 230 670 s reopen2;
-#X obj 200 690 s retog2;
-#X obj 50 500 r reopen2;
-#X text 680 340 toggles to visualise what the inputs are doing;
-#X text 160 380 <-- for some reason toggle26 is coming through this
+#X obj 210 755 t b b b, f 9;
+#X obj 170 725 readsf~;
+#X msg 60 665 open ~/Documents/Pd/deskBell.aiff, f 10;
+#X obj 170 955 dac~;
+#X obj 170 575 change;
+#X obj 130 635 sel 0;
+#X obj 180 635 r retog2;
+#X obj 180 665 r detog2;
+#X obj 270 785 s detog2;
+#X obj 240 805 s reopen2;
+#X obj 210 825 s retog2;
+#X obj 60 635 r reopen2;
+#X text 690 475 toggles to visualise what the inputs are doing;
+#X text 170 515 <-- for some reason toggle26 is coming through this
 channel of the route object, f 83;
-#X text 230 560 each time it changes \, we want to toggle the audio
+#X text 240 695 each time it changes \, we want to toggle the audio
 on/off;
-#X text 230 590 left outlet is audio \, right bangs when soundfile
+#X text 240 725 left outlet is audio \, right bangs when soundfile
 ends;
-#X text 330 650 first we need to turn the toggle OFF;
-#X text 330 670 then we need to reopen the file;
-#X text 330 690 then we can start playing it again;
-#X text 210 410 change object bangs if value it receives changes(handy
+#X text 340 785 first we need to turn the toggle OFF;
+#X text 340 805 then we need to reopen the file;
+#X text 340 825 then we can start playing it again;
+#X text 220 545 change object bangs if value it receives changes(handy
 for filtering out repetition). if it goes 0-1we play the soundfile
 and loop according to the logic below.if it goes 1-0 we turn the sound
 off and send open messageto readsf~ so it's ready to be played again
 next time.;
-#X text 230 500 receive retoggle bang from triggger (see below);
-#X text 230 530 receive detoggle bang from triggger (see below);
-#X text 10 440 receive reopenbang from triggerobj (see below);
-#X text 280 620 trigger obj allows you to send multiple bangs in order
+#X text 240 635 receive retoggle bang from triggger (see below);
+#X text 240 665 receive detoggle bang from triggger (see below);
+#X text 20 575 receive reopenbang from triggerobj (see below);
+#X text 290 755 trigger obj allows you to send multiple bangs in order
 (R to L), f 75;
-#X obj 10 410 loadbang;
-#X text 10 330 loadbang sendsbang on patch open... connectto all
+#X obj 20 545 loadbang;
+#X text 20 465 loadbang sendsbang on patch open... connectto all
 open msgs;
-#X obj 320 720 change;
-#X obj 320 800 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 330 855 change;
+#X obj 330 935 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1 1;
-#X obj 320 830 readsf~;
-#X obj 320 890 *~ 0.2;
-#X obj 340 860 t b b b;
-#X obj 360 750 sel 0;
-#X msg 340 780 open ~/Documents/Pd/deskBell.aiff, f 38;
-#X obj 410 750 loadbang;
-#X text 680 300 last outlet bangs if input doesn't match any arguments
+#X obj 330 965 readsf~;
+#X obj 330 1025 *~ 0.2;
+#X obj 350 995 t b b b;
+#X obj 370 885 sel 0;
+#X msg 350 915 open ~/Documents/Pd/deskBell.aiff, f 38;
+#X obj 420 885 loadbang;
+#X text 690 435 last outlet bangs if input doesn't match any arguments
 , f 33;
-#X text 630 30 to do:- place soundfiles in this patch's directory-
+#X text 640 30 to do:- place soundfiles in this patch's directory-
 readsf~ for each soundfile- toggles can be used to play/pause each
 filewith the right connection to messages;
-#X text 410 860 3 bangs to loop (R-L): 1 turn off toggle \, 2 reopen
+#X text 420 995 3 bangs to loop (R-L): 1 turn off toggle \, 2 reopen
 file \, 3 turn toggle back on, f 80;
-#X obj 160 720 *~ 0.04;
+#X obj 170 855 *~ 0.04;
 #N canvas 495 169 601 452 fileplayback2 0;
 #X obj 50 50 change;
 #X obj 50 130 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
@@ -150,68 +148,90 @@ file \, 3 turn toggle back on, f 80;
 #X connect 6 0 2 0;
 #X connect 7 0 6 0;
 #X connect 9 0 0 0;
-#X restore 670 760 pd fileplayback2;
-#X text 670 730 part to the left encapsulated in subpatch;
+#X restore 680 895 pd fileplayback2;
+#X text 680 865 part to the left encapsulated in subpatch;
+#X obj 150 280 poly 4 1;
+#X obj 150 320 pack f f f;
+#X obj 150 358 route 1 2 3 4;
+#X msg 150 240 \$1;
+#X msg 200 240 \$1;
+#X text 280 240 put toggle and on values into separate messages;
+#X text 280 280 pass toggle and on to poly object as note and velocity
+;
+#X text 280 310 poly object outputs (L-R): voice \, note \, velocityso
+we pack those into one message;
+#X text 280 350 route according to voice (removes voice no. from message)poly
+should send note off to oldest on note if more than 4 voices are active
+;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
-#X connect 4 0 5 0;
-#X connect 4 1 5 1;
-#X connect 5 0 40 0;
-#X connect 7 0 47 0;
+#X connect 4 0 84 0;
+#X connect 4 1 85 0;
+#X connect 6 0 45 0;
+#X connect 29 0 1 0;
 #X connect 30 0 1 0;
-#X connect 31 0 1 0;
-#X connect 40 0 6 0;
-#X connect 40 1 7 0;
-#X connect 40 2 8 0;
-#X connect 40 3 9 0;
-#X connect 40 4 10 0;
-#X connect 40 5 11 0;
-#X connect 40 6 12 0;
-#X connect 40 7 13 0;
-#X connect 40 8 14 0;
-#X connect 40 9 15 0;
-#X connect 40 10 16 0;
-#X connect 40 11 17 0;
-#X connect 40 12 18 0;
-#X connect 40 13 19 0;
-#X connect 40 14 20 0;
-#X connect 40 15 21 0;
-#X connect 40 16 22 0;
-#X connect 40 17 23 0;
-#X connect 40 18 24 0;
-#X connect 40 19 25 0;
-#X connect 40 20 26 0;
-#X connect 40 21 27 0;
-#X connect 40 22 28 0;
-#X connect 40 23 29 0;
-#X connect 40 24 41 0;
-#X connect 42 0 44 0;
-#X connect 42 0 48 0;
-#X connect 43 0 53 0;
-#X connect 43 1 52 0;
-#X connect 43 2 51 0;
-#X connect 44 0 80 0;
-#X connect 44 1 43 0;
-#X connect 45 0 44 0;
-#X connect 47 0 42 0;
-#X connect 47 0 48 0;
-#X connect 48 0 45 0;
-#X connect 49 0 42 0;
-#X connect 50 0 42 0;
-#X connect 54 0 45 0;
-#X connect 67 0 45 0;
-#X connect 69 0 74 0;
+#X connect 38 0 5 0;
+#X connect 38 1 6 0;
+#X connect 38 2 7 0;
+#X connect 38 3 8 0;
+#X connect 38 4 9 0;
+#X connect 38 5 10 0;
+#X connect 38 6 11 0;
+#X connect 38 7 12 0;
+#X connect 38 8 13 0;
+#X connect 38 9 14 0;
+#X connect 38 10 15 0;
+#X connect 38 11 16 0;
+#X connect 38 12 17 0;
+#X connect 38 13 18 0;
+#X connect 38 14 19 0;
+#X connect 38 15 20 0;
+#X connect 38 16 21 0;
+#X connect 38 17 22 0;
+#X connect 38 18 23 0;
+#X connect 38 19 24 0;
+#X connect 38 20 25 0;
+#X connect 38 21 26 0;
+#X connect 38 22 27 0;
+#X connect 38 23 28 0;
+#X connect 38 24 39 0;
+#X connect 40 0 42 0;
+#X connect 40 0 46 0;
+#X connect 41 0 51 0;
+#X connect 41 1 50 0;
+#X connect 41 2 49 0;
+#X connect 42 0 78 0;
+#X connect 42 1 41 0;
+#X connect 43 0 42 0;
+#X connect 45 0 40 0;
+#X connect 45 0 46 0;
+#X connect 46 0 43 0;
+#X connect 47 0 40 0;
+#X connect 48 0 40 0;
+#X connect 52 0 43 0;
+#X connect 65 0 43 0;
+#X connect 67 0 72 0;
+#X connect 67 0 68 0;
+#X connect 68 0 69 0;
+#X connect 68 0 72 0;
 #X connect 69 0 70 0;
-#X connect 70 0 71 0;
-#X connect 70 0 74 0;
-#X connect 71 0 72 0;
+#X connect 69 1 71 0;
+#X connect 70 0 44 1;
+#X connect 71 0 68 0;
 #X connect 71 1 73 0;
-#X connect 72 0 46 1;
-#X connect 73 0 70 0;
-#X connect 73 1 75 0;
-#X connect 73 2 70 0;
-#X connect 74 0 75 0;
-#X connect 75 0 71 0;
-#X connect 76 0 75 0;
-#X connect 80 0 46 0;
+#X connect 71 2 68 0;
+#X connect 72 0 73 0;
+#X connect 73 0 69 0;
+#X connect 74 0 73 0;
+#X connect 78 0 44 0;
+#X connect 81 0 82 0;
+#X connect 81 1 82 1;
+#X connect 81 2 82 2;
+#X connect 82 0 83 0;
+#X connect 83 0 38 0;
+#X connect 83 1 38 0;
+#X connect 83 2 38 0;
+#X connect 83 3 38 0;
+#X connect 84 0 81 0;
+#X connect 85 0 81 1;
